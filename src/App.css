@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 700px;
+}
+
+.inp {
+  width: 230px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.box_time {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 18px;
+}
