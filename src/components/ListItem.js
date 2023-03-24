@@ -7,11 +7,11 @@ export default class ListItem extends Component {
         this.id = props.id;
         this.title = props.title;
         this.timeZone = Number(props.timeZone);
-        this.state = { time: moment().utcOffset(this.timeZone).format('HH:MM:SS') };
+        this.state = { time: moment().utcOffset(this.timeZone).format('HH:mm:ss') };
     }
 
     timeUpdate() {
-        this.setState({ time: moment().utcOffset(this.timeZone).format('HH:MM:SS') })
+        this.setState({ time: moment().utcOffset(this.timeZone).format('HH:mm:ss') })
     }
 
     componentDidMount() {
